@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DocsComponent } from './docs/docs.component';
 import { HomeComponent } from './home/home.component';
+import { MetaElementsComponent } from './meta-elements/meta-elements.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, DocsComponent, ApiComponent],
+  declarations: [AppComponent, HomeComponent, DocsComponent, ApiComponent, MetaElementsComponent],
   imports: [BrowserModule, AppRoutingModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
